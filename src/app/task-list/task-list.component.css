@@ -1,0 +1,5 @@
+.completed-task {
+    text-decoration: line-through; /* Tachar el texto de las tareas completadas */
+    color: #888; /* Cambiar el color del texto de tareas completadas */
+  }
+  

@@ -1,0 +1,9 @@
+<br>
+<div class="d-flex justify-content-center " style="height: 5vh;">
+    <label>Filtrar tareas:</label>
+    <select [(ngModel)]="selectedFilter" (change)="onFilterChange()">
+      <option value="all">Todas</option>
+      <option value="completed">Completadas</option>
+      <option value="not-completed">No Completadas</option>
+    </select>
+  </div>
